@@ -7,6 +7,9 @@ public class ItemHandler : MonoBehaviour
 {
     public GameObject[] Items;
     public GameObject ItemInformationPanelUI;
+    public Text ItemName;
+    public Text ItemSpecs;
+    public Text ItemDescription;
 
     private GameObject _clickedGameObject;
     private GameObject _gameObject;
@@ -20,9 +23,7 @@ public class ItemHandler : MonoBehaviour
     {
         if (ItemInformationPanelUI.activeInHierarchy)
         {
-            //TODO TEMP solution. Later calculate position for informationPanel hover through screen witdh/height.
-            ItemInformationPanelUI.transform.position = new Vector2(Input.mousePosition.x + 110f,
-                Input.mousePosition.y + -150f);
+            ItemInformationPanelUI.transform.position = Input.mousePosition;
         }
     }
 
@@ -51,11 +52,13 @@ public class ItemHandler : MonoBehaviour
         else
             ItemInformationPanelUI.SetActive(false);
 
-        Text textObject = ItemInformationPanelUI.GetComponentInChildren<Text>();
-
         GameObject gameObjectFromTag = ReturnGameObjectFromTag(item);
 
-        textObject.text = "Damage - " + gameObjectFromTag.GetComponent<Turret>().Damage;
+        //TODO Make this more dynamic, to work with different Types.
+        ItemName.text = gameObjectFromTag.GetComponent<Turret>().WeaponName;
+        ItemSpecs.text = "Damage " + gameObjectFromTag.GetComponent<Turret>().Damage + "\n Health " 
+            + gameObjectFromTag.GetComponent<Turret>().Health;
+        ItemDescription.text = gameObjectFromTag.GetComponent<Turret>().WeaponDescription;
     }
 
     public GameObject ReturnGameObjectFromTag(GameObject item)
