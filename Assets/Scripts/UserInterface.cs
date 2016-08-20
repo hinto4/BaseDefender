@@ -22,7 +22,6 @@ public class UserInterface : MonoBehaviour
 
     void Update()
     {
-        //DetectBuildingBlocks();
         BuildMenu();
     }
 
@@ -37,7 +36,8 @@ public class UserInterface : MonoBehaviour
             PanelManager(DefensiveBuildPanel);
         }
     }
-    public void PanelManager(GameObject panelName)
+
+    public void PanelManager(GameObject panelName)  // Disables or enables panel.
     {
         if (IsPanelActive)
         {
@@ -57,25 +57,4 @@ public class UserInterface : MonoBehaviour
             _firstPersonController.SetMouseLookSensitivity(0, 0);
         }
     }
-
-    //void DetectBuildingBlocks()
-    //{
-    //    RaycastHit hit;
-    //    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-    //    if (Physics.Raycast(ray, out hit, 3))
-    //    {
-    //        if (hit.collider.tag == "DefensiveBuildPlatform")
-    //        {
-    //            if (Input.GetButtonDown("InteractionButton"))
-    //            {
-    //                PanelManager(DefensiveBuildPanel);
-    //            }
-    //        }
-    //    }
-    //    else if (Input.GetButtonDown("InteractionButton") && IsPanelActive)
-    //    {
-    //        PanelManager(DefensiveBuildPanel);
-    //    }
-    //}
 }

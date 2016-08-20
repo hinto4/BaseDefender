@@ -7,15 +7,20 @@ using UnityEngine.EventSystems;
 public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     private ItemHandler _itemHandler;
+    private UserInterface _userInterface;
 
     void Start()
     {
         _itemHandler = FindObjectOfType<ItemHandler>();
+        _userInterface = FindObjectOfType<UserInterface>();
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         _itemHandler.GetClickedGameObject(this.transform.gameObject);
+
+        _userInterface.PanelManager(_userInterface.DefensiveBuildPanel);
+        _itemHandler.ShowItemStats(this.transform.gameObject, false);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

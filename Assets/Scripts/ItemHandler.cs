@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class ItemHandler : MonoBehaviour
 {
@@ -11,11 +12,16 @@ public class ItemHandler : MonoBehaviour
     public Text ItemSpecs;
     public Text ItemDescription;
 
+    private GameObject _player;
     private GameObject _clickedGameObject;
     private GameObject _gameObject;
+    private PlaceSpawnedObject _placeSpawnedObject;
 
     void Start()
     {
+        _player = GameObject.FindGameObjectWithTag("Player");
+        _placeSpawnedObject = GameObject.FindObjectOfType<PlaceSpawnedObject>();
+
         ItemInformationPanelUI.SetActive(false);
     }
 
@@ -33,12 +39,11 @@ public class ItemHandler : MonoBehaviour
         SpawnGameObject();
     }
 
-    public void SpawnGameObject()
+    void SpawnGameObject()
     {
         if (_gameObject != null)
         {
-            Debug.Log("Spawning " + _gameObject.name);
-            Instantiate(_gameObject, Vector3.zero, Quaternion.identity);
+            _placeSpawnedObject.PlaceItem(_gameObject);
         }
     }
 
