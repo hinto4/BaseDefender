@@ -9,6 +9,7 @@ public class PlaceSpawnedObject : MonoBehaviour
     {
         if (Item != null)
         {
+            //TODO if objectPlacing is active, change shader opacity, if ray distance is > 5 change object shader to red, otherwise green.
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, 5))

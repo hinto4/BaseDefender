@@ -8,24 +8,34 @@ public class UserInterface : MonoBehaviour
 {
     public GameObject DefensiveBuildPanel;
     public GameObject BuildMenuPanel;
+
+    public GameObject ItemInformationPanel;
+    public Text ItemName;
+    public Text ItemSpecs;
+    public Text ItemDescription;
+
     public bool IsPanelActive;
 
     private FirstPersonController _firstPersonController;
+    private ItemHandler _itemHandler;
 
     void Start()
     {
         BuildMenuPanel.SetActive(false);
         DefensiveBuildPanel.SetActive(false);
+        ItemInformationPanel.SetActive(false);
 
+        _itemHandler = FindObjectOfType<ItemHandler>();
         _firstPersonController = GameObject.FindObjectOfType<FirstPersonController>();
     }
 
     void Update()
     {
         BuildMenu();
+        EnableUiFollowMouse(ItemInformationPanel);
     }
 
-    void BuildMenu()
+    void BuildMenu()        // Enable interface panel when player presses button.
     {
         if (Input.GetButtonDown("BuildMenu"))
         {
@@ -37,7 +47,15 @@ public class UserInterface : MonoBehaviour
         }
     }
 
-    public void PanelManager(GameObject panelName)  // Disables or enables panel.
+    void EnableUiFollowMouse(GameObject panel)      // Ui follow the mouse position.
+    {
+        if (panel.activeInHierarchy)
+        {
+            panel.transform.position = Input.mousePosition;
+        }
+    }
+
+    public void PanelManager(GameObject panelName)  // Disables or enables panels.
     {
         if (IsPanelActive)
         {
@@ -56,5 +74,23 @@ public class UserInterface : MonoBehaviour
             _firstPersonController.SetMouseCursorLock(false);
             _firstPersonController.SetMouseLookSensitivity(0, 0);
         }
+    }
+
+    public void ShowItemStats(GameObject item, bool showPanel)      // Print item stats on the UI Panel.
+    {
+        if (item == null)
+            throw new NullReferenceException();
+
+        if (showPanel)
+            ItemInformationPanel.SetActive(true);
+        else
+            ItemInformationPanel.SetActive(false);
+
+        GameObject gameObjectFromTag = _itemHandler.ReturnGameObjectFromTag(item);
+
+        ItemName.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemName;
+        ItemSpecs.text = "Damage " + gameObjectFromTag.GetComponent<BuildStructures>().Damage + "\n Health "
+            + gameObjectFromTag.GetComponent<BuildStructures>().Health;
+        ItemDescription.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemDescription;
     }
 }

@@ -2,11 +2,10 @@
 using System.Collections;
 using JetBrains.Annotations;
 
-public class Turret : MonoBehaviour
+public class Turret : BuildStructures
 {
-    public float Damage;
-    public float Health;
-    public string WeaponName;
-    public string WeaponSpecs;
-    public string WeaponDescription;
+    public override void Shoot()
+    {
+        //
+    }
 }
