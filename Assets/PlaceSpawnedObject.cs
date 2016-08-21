@@ -18,7 +18,12 @@ public class PlaceSpawnedObject : MonoBehaviour
             }
             if (Input.GetMouseButtonDown(0))
             {
-                Item = new GameObject();
+                Item = new GameObject();            // After placing instantiated object, set Item to null (Makes empty gameobject).
+                DestroyObject(Item, 2f);            // Destroy empty gameObject after 2 seconds.
+            }
+            else if (Input.GetMouseButtonDown(1))
+            {
+                DestroyObject(Item);                // Disable the placingItem.
             }
         }
     }

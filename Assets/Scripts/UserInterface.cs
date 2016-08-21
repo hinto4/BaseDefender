@@ -89,8 +89,10 @@ public class UserInterface : MonoBehaviour
         GameObject gameObjectFromTag = _itemHandler.ReturnGameObjectFromTag(item);
 
         ItemName.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemName;
+
         ItemSpecs.text = "Damage " + gameObjectFromTag.GetComponent<BuildStructures>().Damage + "\n Health "
             + gameObjectFromTag.GetComponent<BuildStructures>().Health;
+
         ItemDescription.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemDescription;
     }
 }

@@ -4,8 +4,6 @@ using JetBrains.Annotations;
 
 public class Turret : BuildStructures
 {
-    public override void Shoot()
-    {
-        //
-    }
+    // turret behaviour coming soon
+
 }
