@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BuildStructures : MonoBehaviour
+public class WeaponType : MonoBehaviour
 {
     public float Damage;
     public float Health;

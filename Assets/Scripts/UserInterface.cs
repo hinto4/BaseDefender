@@ -11,7 +11,6 @@ public class UserInterface : MonoBehaviour
 
     public GameObject ItemInformationPanel;
     public Text ItemName;
-    public Text ItemSpecs;
     public Text ItemDescription;
 
     public bool IsPanelActive;
@@ -35,7 +34,7 @@ public class UserInterface : MonoBehaviour
         EnableUiFollowMouse(ItemInformationPanel);
     }
 
-    void BuildMenu()        // Enable interface panel when player presses button.
+    void BuildMenu()                                                // Enable interface panel when player presses button.
     {
         if (Input.GetButtonDown("BuildMenu"))
         {
@@ -47,7 +46,7 @@ public class UserInterface : MonoBehaviour
         }
     }
 
-    void EnableUiFollowMouse(GameObject panel)      // Ui follow the mouse position.
+    void EnableUiFollowMouse(GameObject panel)                      // Ui follow the mouse position.
     {
         if (panel.activeInHierarchy)
         {
@@ -55,7 +54,7 @@ public class UserInterface : MonoBehaviour
         }
     }
 
-    public void PanelManager(GameObject panelName)  // Disables or enables panels.
+    public void PanelManager(GameObject panelName)                  // Disables or enables panels.
     {
         if (IsPanelActive)
         {
@@ -88,11 +87,7 @@ public class UserInterface : MonoBehaviour
 
         GameObject gameObjectFromTag = _itemHandler.ReturnGameObjectFromTag(item);
 
-        ItemName.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemName;
-
-        ItemSpecs.text = "Damage " + gameObjectFromTag.GetComponent<BuildStructures>().Damage + "\n Health "
-            + gameObjectFromTag.GetComponent<BuildStructures>().Health;
-
-        ItemDescription.text = gameObjectFromTag.GetComponent<BuildStructures>().ItemDescription;
+        ItemName.text = gameObjectFromTag.GetComponent<WeaponType>().ItemName;
+        ItemDescription.text = gameObjectFromTag.GetComponent<WeaponType>().ItemDescription;
     }
 }
