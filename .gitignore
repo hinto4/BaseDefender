@@ -740,3 +740,9 @@ Assets/Prefabs/Building/Walls/Wall_D_03.prefab
 Assets/Prefabs/Building/Walls/Wall_D_03.prefab.meta
 Assets/Scripts/Old/ObjectsInteraction.cs
 Assets/Scripts/Old/ObjectsInteraction.cs.meta
+Assets/Animations/TurretAnimationController.controller
+Assets/Animations/TurretAnimationController.controller.meta
+Assets/Animations/TurretScan.anim
+Assets/Animations/TurretScan.anim.meta
+Assets/Animations/TurretSpawn.anim
+Assets/Animations/TurretSpawn.anim.meta
