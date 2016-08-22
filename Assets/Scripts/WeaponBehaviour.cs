@@ -50,7 +50,7 @@ public class WeaponBehaviour : MonoBehaviour
             Debug.Log("Fire2 released");
 
             _mainCamera.fieldOfView = FieldOfView;
-            _firstPersonController.SetMouseLookSensitivity(2, 2);
+            _firstPersonController.SetMouseLookSensitivity(1, 1);
         }
     }
 }

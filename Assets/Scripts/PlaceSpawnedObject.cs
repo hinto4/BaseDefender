@@ -2,15 +2,25 @@
 using System.Collections;
 using System.Linq.Expressions;
 using UnityEngine.Networking;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlaceSpawnedObject : MonoBehaviour
 {
     private GameObject _item;
 
-    private float smooth = 20f;
+    private float _rotationSpeed = 200f;
     private float _registeredMouseMovement;
     private bool _gameObjectRotationEnabled;
 
+    //TODO Make seperate class for locking and enabling the camera.
+    private FirstPersonController _firstPersonController;       // temp
+
+    void Start()
+    {
+        _firstPersonController = GameObject.FindObjectOfType<FirstPersonController>();
+    }
+
+    private float movementTest;
     void Update()
     {
         if (_item != null)
@@ -23,29 +33,34 @@ public class PlaceSpawnedObject : MonoBehaviour
                 if (!_gameObjectRotationEnabled)                // _gameObjectRotation is enabled while holding down R to rotate. Disable object movment.
                 {
                     _item.transform.position = hit.point;
+                    
                 }
             }
             //TODO make dedicated method for objects rotation, include fps camera lock while rotating.
             if (Input.GetKey(KeyCode.R)) // Temporary key, later changed for real Input. Enables GameObject rotation.
             {
-                _gameObjectRotationEnabled = true;                          
+                _gameObjectRotationEnabled = true;  
+                _firstPersonController.SetMouseLookSensitivity(0,0);    // Disable fps controller camera movement.                       
                 Debug.Log("Rotation object");                   
-                if (Input.GetAxis("Mouse X") < 0)               // Mouse movement left
+                if (Input.GetAxis("Mouse X") < 0)                       // Mouse movement left
                 {
+                    Debug.Log(Input.GetAxis("Mouse X"));
                     _registeredMouseMovement++;
                 }
-                if (Input.GetAxis("Mouse X") > 0)               // Mouse movement right
+                if (Input.GetAxis("Mouse X") > 0)                       // Mouse movement right
                 {
+                    Debug.Log(Input.GetAxis("Mouse X"));
                     _registeredMouseMovement--;
                 }
                 _item.transform.rotation =
                     Quaternion.Slerp(transform.rotation,
-                        Quaternion.Euler(0f, _registeredMouseMovement, 0f),
-                        Time.deltaTime*smooth);
+                    Quaternion.Euler(0f, _registeredMouseMovement, 0f),
+                    Time.deltaTime*_rotationSpeed);
             }
-            else
+            else if(Input.GetKeyUp(KeyCode.R))
             {
                 _gameObjectRotationEnabled = false;
+                _firstPersonController.SetMouseLookSensitivity(1f, 1f);     // Enable fps controller camera movement
             }
             if (Input.GetMouseButtonDown(0))
             {
