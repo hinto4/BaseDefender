@@ -11,6 +11,7 @@
 /Assets/WarZone Sci-Fi Turret pack*
 /Assets/Extreme Sci-Fi LITE*
 /Assets/ZGONAssets*
+/Assets/Prefabs*
 /Assets/Sound*
 /Assets/Models*
 /Assets/*.meta
@@ -262,3 +263,480 @@ Assets/ZGONAssets/Shared/Textures/Detailmap_001_DetailNormal.psd.meta
 Game.exe
 player_win_x86.pdb
 player_win_x86_s.pdb
+Assets/Other Assets/Extreme Sci-Fi LITE.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Ceiling_Lights_New_1(Gr).fbx
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Ceiling_Lights_New_1(Gr).fbx.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A(Gr).fbx
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A(Gr).fbx.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A_2(Gr).fbx
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3A_2(Gr).fbx.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3B(Gr).fbx
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Corridors_3B(Gr).fbx.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Emissive_Light_1.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Emissive_Light_1.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_1.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_1.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Glass_2.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Metal_B2.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Metal_B2.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/None__Utility_Map_1_png.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/None__Utility_Map_1_png.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Pipes_Rusty_1.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Pipes_Rusty_1.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Utility_Map_1.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Materials/Utility_Map_1.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Pillars_1A(Gr).fbx
+Assets/Other Assets/Extreme Sci-Fi LITE/FBX/Pillars_1A(Gr).fbx.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1C.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1C.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1D.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1D.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1E.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1F.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1F.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1G.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1G.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1H.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1H.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1I.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_1I.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide).prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A(Wide)_Large.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2A_Large.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide).prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide).prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Large.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Large.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B(Wide)_Window.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Window.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C(Wide).prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C(Wide).prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1C_Closed.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1D_Closed.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1D_Closed.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1E_Doors.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1E_Doors.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1L.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1L.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1R.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Door_1R.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Closed.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Closed.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Double.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Doors_Double.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1C.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1C.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1D.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1D.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1E.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1E.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1F.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1F.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1G.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1G.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1C.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Industrial_Pillar_1C.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1A.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1A.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1B.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1B.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1C.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1C.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1D.prefab
+Assets/Other Assets/Extreme Sci-Fi LITE/Prefabs/Pillars/Support_Pillar_1D.prefab.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Glass_1.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Glass_1.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Glass_2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Glass_2.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Grate_Floor_Bumped.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Grate_Floor_Bumped.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Metal_B2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Metal_B2.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Metal_B3.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Metal_B3.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Pipes_Rusty_1(Bumped).png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Pipes_Rusty_1(Bumped).png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Pipes_Rusty_1.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Pipes_Rusty_1.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1(Bumped).png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1(Bumped).png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.2.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_normal2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_normal2.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_occlusion.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_occlusion.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_occlusion2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_1_occlusion2.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_2.2.mat
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/Utility_Map_2.2.mat.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/White_Metal_1.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/White_Metal_1.png.meta
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/White_Metal_2.png
+Assets/Other Assets/Extreme Sci-Fi LITE/Textures/White_Metal_2.png.meta
+Assets/Other Assets/Modern Weapons Pack.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/ACOG Sight.fbx
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/ACOG Sight.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/ACOG Diffuse + Specular.mat
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/ACOG Diffuse + Specular.mat.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/Front_Lens.mat
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/Front_Lens.mat.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/Rear_Lens.mat
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/FBX/Materials/Rear_Lens.mat.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/OBJ (Extra)/ACOG Sight.obj.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/ACOG Normals.png
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/ACOG Normals.png.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/ACOG Sight.tga
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/ACOG Sight.tga.meta
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/Lens.png
+Assets/Other Assets/Modern Weapons Pack/ACOG Sight/Textures/Lens.png.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Ak-47.fbx
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Ak-47.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47 Magazine NRM.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47Body__Untitled.mat
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/Ak47Body__Untitled.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/GreyMat.mat
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/GreyMat.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat
+Assets/Other Assets/Modern Weapons Pack/Ak-47/FBX/Materials/No Name.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/OBJ (Extra)/Ak-47.obj
+Assets/Other Assets/Modern Weapons Pack/Ak-47/OBJ (Extra)/Ak-47.obj.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Body Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Body Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Body NRM.png
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Body NRM.png.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine NRM.png
+Assets/Other Assets/Modern Weapons Pack/Ak-47/Textures/Ak47 Magazine NRM.png.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials/Smoke Grenade DIF.mat
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX/Materials/Smoke Grenade DIF.mat.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX/Smoke Grenade.fbx
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/FBX/Smoke Grenade.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra)/Smoke Grenade.obj
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/OBJ (Extra)/Smoke Grenade.obj.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/Texture.meta
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/Texture/Smoke Grenade.tga
+Assets/Other Assets/Modern Weapons Pack/M18 Smoke Grenade/Texture/Smoke Grenade.tga.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/M4A1 Sopmod.fbx
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/M4A1 Sopmod.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Body Diffuse.mat.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Iron Sight Diffuse.mat
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Iron Sight Diffuse.mat.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Magazine Diffuse.mat
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1 Sopmod Magazine Diffuse.mat.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat
+Assets/Other Assets/Modern Weapons Pack/M4A1/FBX/Materials/M4A1_Sopmod_Body.mat.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/OBJ (Extra)/M4A1 Sopmod.obj
+Assets/Other Assets/Modern Weapons Pack/M4A1/OBJ (Extra)/M4A1 Sopmod.obj.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body NRM.png
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Body NRM.png.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight NRM.png
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Iron Sight NRM.png.meta
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Magazine Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/M4A1/Textures/M4A1 Sopmod Magazine Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS.mat
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS_Mag.mat
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Materials/Skorpion_VS_Mag.mat.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Skorpion VZ.fbx
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/FBX/Skorpion VZ.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/OBJ (Extra)/Skorpion VZ.obj
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/OBJ (Extra)/Skorpion VZ.obj.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Magazine.png
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Magazine.png.meta
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Normals.png
+Assets/Other Assets/Modern Weapons Pack/Skorpion VZ/Textures/Skorpion_VZ_Normals.png.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/Material_001.mat
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/Material_001.mat.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Body_Diffuse.mat
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Body_Diffuse.mat.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Mag_Diffuse.mat
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/Materials/UMP-45_Mag_Diffuse.mat.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/UMP-45.fbx
+Assets/Other Assets/Modern Weapons Pack/UMP-45/FBX/UMP-45.fbx.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/OBJ (Extra).meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/OBJ (Extra)/UMP-45.obj
+Assets/Other Assets/Modern Weapons Pack/UMP-45/OBJ (Extra)/UMP-45.obj.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Normals.png
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Body_Normals.png.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Diffuse.tga
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Diffuse.tga.meta
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Normals.png
+Assets/Other Assets/Modern Weapons Pack/UMP-45/Textures/UMP-45_Mag_Normals.png.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/02 - Default.mat
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/02 - Default.mat.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/2.mat
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/2.mat.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/Emission.mat
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/Emission.mat.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/TurretMaterial.mat
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/TurretMaterial.mat.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/TurretTexture.png
+Assets/Other Assets/WarZone Sci-Fi Turret pack/Materials/TurretTexture.png.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun1.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun1.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun2.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun2.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun3.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/gun3.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/lazer0.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/lazer0.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/lazer1.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/lazer1.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun1.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun1.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun2.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun2.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun3.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/machinegun3.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/radar.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/radar.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket1.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket1.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket2.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket2.FBX.meta
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket3.FBX
+Assets/Other Assets/WarZone Sci-Fi Turret pack/rocket3.FBX.meta
+Assets/Other Assets/ZGONAssets.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_03.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_03.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_04.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Floor_A_04.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Ibar_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Ibar_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Ibar_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Ibar_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_03.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_03.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_04.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_04.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_Post_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_Post_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_Post_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_A_Post_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_03.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_B_03.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_03.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_C_03.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_01.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_01.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_02.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_02.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_03.mat
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Materials/Wall_D_03.mat.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_03.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_03.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_04.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Floor_A_04.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Ibar_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Ibar_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Ibar_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Ibar_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_03.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_03.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_04.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_04.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_Post_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_Post_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_Post_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_A_Post_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_03.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_B_03.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_03.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_C_03.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_01.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_01.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_02.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_02.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_03.fbx
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Meshes/Wall_D_03.fbx.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Modern_ConcreteBuildingExt_01.xml
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Modern_ConcreteBuildingExt_01.xml.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_1_BodyNormal.tga
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_1_BodyNormal.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_1_Occlusion.tga
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_1_Occlusion.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_2_BodyNormal.tga
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_2_BodyNormal.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_2_Occlusion.tga
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/Textures/Atlas_2_Occlusion.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/readme.txt
+Assets/Other Assets/ZGONAssets/Modern_ConcreteBuildingExt_01/readme.txt.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Concrete_002_Diffuse.tga
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Concrete_002_Diffuse.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Concrete_002_Normal.tga
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Concrete_002_Normal.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Metal_TrimSet_001_TrimDiffuse.tga
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Metal_TrimSet_001_TrimDiffuse.tga.meta
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Metal_TrimSet_001_TrimNormal.tga
+Assets/Other Assets/ZGONAssets/Modern_Shared/Textures/Metal_TrimSet_001_TrimNormal.tga.meta
+Assets/Other Assets/ZGONAssets/Shared.meta
+Assets/Other Assets/ZGONAssets/Shared/Shaders.meta
+Assets/Other Assets/ZGONAssets/Shared/Shaders/ZGONBumpedDetailSpec_01.shader
+Assets/Other Assets/ZGONAssets/Shared/Shaders/ZGONBumpedDetailSpec_01.shader.meta
+Assets/Other Assets/ZGONAssets/Shared/Shaders/ZGONShaderOps.cginc
+Assets/Other Assets/ZGONAssets/Shared/Shaders/ZGONShaderOps.cginc.meta
+Assets/Other Assets/ZGONAssets/Shared/Textures.meta
+Assets/Other Assets/ZGONAssets/Shared/Textures/Detailmap_001_DetailNormal.psd
+Assets/Other Assets/ZGONAssets/Shared/Textures/Detailmap_001_DetailNormal.psd.meta
+Assets/Prefabs/Building.meta
+Assets/Prefabs/Building/Walls.meta
+Assets/Prefabs/Building/Walls/Wall_A_01.prefab
+Assets/Prefabs/Building/Walls/Wall_A_01.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_A_02.prefab
+Assets/Prefabs/Building/Walls/Wall_A_02.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_A_03.prefab
+Assets/Prefabs/Building/Walls/Wall_A_03.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_A_04.prefab
+Assets/Prefabs/Building/Walls/Wall_A_04.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_A_Post_01.prefab
+Assets/Prefabs/Building/Walls/Wall_A_Post_01.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_A_Post_02.prefab
+Assets/Prefabs/Building/Walls/Wall_A_Post_02.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_B_01.prefab
+Assets/Prefabs/Building/Walls/Wall_B_01.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_B_02.prefab
+Assets/Prefabs/Building/Walls/Wall_B_02.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_B_03.prefab
+Assets/Prefabs/Building/Walls/Wall_B_03.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_C_01.prefab
+Assets/Prefabs/Building/Walls/Wall_C_01.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_C_02.prefab
+Assets/Prefabs/Building/Walls/Wall_C_02.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_C_03.prefab
+Assets/Prefabs/Building/Walls/Wall_C_03.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_D_01.prefab
+Assets/Prefabs/Building/Walls/Wall_D_01.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_D_02.prefab
+Assets/Prefabs/Building/Walls/Wall_D_02.prefab.meta
+Assets/Prefabs/Building/Walls/Wall_D_03.prefab
+Assets/Prefabs/Building/Walls/Wall_D_03.prefab.meta
+Assets/Scripts/Old/ObjectsInteraction.cs
+Assets/Scripts/Old/ObjectsInteraction.cs.meta

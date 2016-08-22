@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq.Expressions;
 
 public class PlaceSpawnedObject : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlaceSpawnedObject : MonoBehaviour
             }
             if (Input.GetMouseButtonDown(0))
             {
+                BuildItem();
                 Item = new GameObject();            // After placing instantiated object, set Item to null (Makes empty gameobject).
                 DestroyObject(Item, 2f);            // Destroy empty gameObject after 2 seconds.
             }
@@ -32,5 +34,10 @@ public class PlaceSpawnedObject : MonoBehaviour
     {
         GameObject spawnedItem = Instantiate(item, this.transform.position, Quaternion.identity) as GameObject;
         Item = spawnedItem;
+    }
+
+    void BuildItem()
+    {
+        Item.transform.position = new Vector3(Item.transform.position.x, Item.transform.position.y - 2f, Item.transform.position.z);
     }
 }
