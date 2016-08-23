@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class WeaponType : MonoBehaviour, IStructures
+public abstract class BuildingsType : MonoBehaviour, IStructures
 {
-    public float Damage;
-    public float Health;
     public string itemName;
     public string itemDescription;
+    public float Health;
 
     public string ItemName
     {
@@ -22,7 +21,7 @@ public abstract class WeaponType : MonoBehaviour, IStructures
 
     string DisplayItemSpecs()
     {
-        string ItemSpecs = "\n Damage - " + Damage + "\n Health - " + Health + "\n\n";
+        string ItemSpecs = "\n Health - " + Health + "\n\n";
         return ItemSpecs;
     }
 

@@ -9,12 +9,14 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     private ItemHandler _itemHandler;
     private UserInterface _userInterface;
     private Color _buttonDefaultColor;
+    private Turret _turret;
 
     [Tooltip("Choose button main panel.")]
     public GameObject Panel;                
 
     void Start()
     {
+        _turret = FindObjectOfType<Turret>();
         _itemHandler = FindObjectOfType<ItemHandler>();
         _userInterface = FindObjectOfType<UserInterface>();
         _buttonDefaultColor = this.transform.GetComponent<Image>().color;
@@ -25,7 +27,7 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
         _itemHandler.GetClickedGameObject(this.transform.gameObject);
 
         _userInterface.PanelManager(Panel);
-        _userInterface.ShowItemStats(this.transform.gameObject, false);
+        _userInterface.ShowItemStats(this.transform.gameObject, false, _turret);
 
         this.transform.GetComponent<Image>().color = _buttonDefaultColor;
     }
@@ -33,7 +35,7 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     public void OnPointerEnter(PointerEventData eventData)
     {
         Debug.Log("Hover enter, enable panel.");
-        _userInterface.ShowItemStats(this.transform.gameObject,true);
+        _userInterface.ShowItemStats(this.transform.gameObject,true, _turret);
 
         this.transform.GetComponent<Image>().color = new Color(97f, 142f, 231f, 255f);      // temporary
     }
@@ -41,7 +43,7 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     public void OnPointerExit(PointerEventData eventData)
     {
         Debug.Log("Hover exit, disable panel.");
-        _userInterface.ShowItemStats(this.transform.gameObject, false);
+        _userInterface.ShowItemStats(this.transform.gameObject, false,_turret);
 
         this.transform.GetComponent<Image>().color = _buttonDefaultColor;
     }

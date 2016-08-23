@@ -64,7 +64,7 @@ public class PlaceSpawnedObject : MonoBehaviour
             }
             if (Input.GetMouseButtonDown(0))
             {
-                _item.GetComponent<StructureType>().SpawnItem(_item.GetComponent<Animator>());
+                _item.GetComponent<IStructures>().SpawnItem(_item.GetComponent<Animator>());
                 SetItemCollider(_item, true);                                           // Enables item collider.
                 _item = new GameObject();                                               // After placing instantiated object, set Item to null (Makes empty gameobject).
                 DestroyObject(_item, 2f);                                               // Destroy empty gameObject after 2 seconds.

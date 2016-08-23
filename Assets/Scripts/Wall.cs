@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StructureType : MonoBehaviour
+public class Wall : BuildingsType
 {
-    public virtual void SpawnItem(Animator animator)
+   public override void SpawnItem(Animator animator)
     {
         animator.SetTrigger("Spawn");
     }

@@ -75,7 +75,7 @@ public class UserInterface : MonoBehaviour
         }
     }
 
-    public void ShowItemStats(GameObject item, bool showPanel)      // Print item stats on the UI Panel.
+    public void ShowItemStats(GameObject item, bool showPanel, IStructures structureType)      // Print item stats on the UI Panel.
     {
         if (item == null)
             throw new NullReferenceException();
@@ -87,7 +87,7 @@ public class UserInterface : MonoBehaviour
 
         GameObject gameObjectFromTag = _itemHandler.ReturnGameObjectFromTag(item);
 
-        ItemName.text = gameObjectFromTag.GetComponent<WeaponType>().ItemName;
-        ItemDescription.text = gameObjectFromTag.GetComponent<WeaponType>().ItemDescription;
+        ItemName.text = gameObjectFromTag.GetComponent<IStructures>().ItemName;
+        ItemDescription.text = gameObjectFromTag.GetComponent<IStructures>().ItemDescription;
     }
 }
