@@ -13,10 +13,8 @@ public class Turret : WeaponType
         
     }
 
-    public void SpawnItem()
+    public override void SpawnItem(Animator animator)
     {
-        _animator.SetTrigger("Spawn");
-        
+        base.SpawnItem(_animator);
     }
-
 }

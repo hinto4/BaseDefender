@@ -10,6 +10,9 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     private UserInterface _userInterface;
     private Color _buttonDefaultColor;
 
+    [Tooltip("Choose button main panel.")]
+    public GameObject Panel;                
+
     void Start()
     {
         _itemHandler = FindObjectOfType<ItemHandler>();
@@ -21,7 +24,7 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
     {
         _itemHandler.GetClickedGameObject(this.transform.gameObject);
 
-        _userInterface.PanelManager(_userInterface.DefensiveBuildPanel);
+        _userInterface.PanelManager(Panel);
         _userInterface.ShowItemStats(this.transform.gameObject, false);
 
         this.transform.GetComponent<Image>().color = _buttonDefaultColor;

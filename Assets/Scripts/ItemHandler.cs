@@ -32,10 +32,12 @@ public class ItemHandler : MonoBehaviour
     public GameObject ReturnGameObjectFromTag(GameObject item)      // Associates object tag with gameobject tag and returns gameobject.  
     {                                                               // Used for 2d sprite buttons, to get their gameObjects and link them.
         if (item == null)
-            throw new NullReferenceException();
+            Debug.LogError("Missing GameObject for the method.");
 
         foreach (var itemName in Items)
         {
+            if(itemName == null)
+                Debug.LogError("Add prefab for ItemHandler in the Hierarchy.");
             if (itemName.tag == item.tag)
             {
                 _gameObject = itemName.gameObject;
