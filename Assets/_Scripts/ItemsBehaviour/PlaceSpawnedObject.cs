@@ -6,7 +6,10 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlaceSpawnedObject : MonoBehaviour
 {
+    public float PlaceObjectDetectRange = 10f;                                            // Default range for object placement.
+
     private GameObject _item;
+    
 
     private float _rotationSpeed = 200f;
     private float _registeredMouseMovement;
@@ -28,7 +31,7 @@ public class PlaceSpawnedObject : MonoBehaviour
             //TODO if objectPlacing is active, change shader opacity, if ray distance is > 5 change object shader to red, otherwise green.
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, 10))
+            if (Physics.Raycast(ray, out hit, PlaceObjectDetectRange))
             {
                 if (!_gameObjectRotationEnabled)                                        // _gameObjectRotation is enabled while holding down R to rotate. Disable object movment.
                 {
@@ -69,10 +72,12 @@ public class PlaceSpawnedObject : MonoBehaviour
                 _item = new GameObject();                                               // After placing instantiated object, set Item to null (Makes empty gameobject).
                 DestroyObject(_item, 2f);                                               // Destroy empty gameObject after 2 seconds.
                 _registeredMouseMovement = 0;                                           // Reset mouse registered movement.
+                PlaceObjectDetectRange = 10f;                                                 // Reset placement range back to default.
             }
             else if (Input.GetMouseButtonDown(1))
             {
                 DestroyObject(_item);                                                   // Disable the placingItem.
+                PlaceObjectDetectRange = 10f;
             }
         }
     }
