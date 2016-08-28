@@ -8,6 +8,6 @@ public class Bridge : MonoBehaviour
     void Start ()
     {
         _placeSpawnedObject = GameObject.FindObjectOfType<PlaceSpawnedObject>();
-        _placeSpawnedObject.PlaceObjectDetectRange = 3f;
+        _placeSpawnedObject.PlaceObjectDetectRange = 6f;
     }
 }

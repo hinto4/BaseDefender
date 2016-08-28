@@ -34,7 +34,6 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Hover enter, enable panel.");
         _userInterface.ShowItemStats(this.transform.gameObject,true, _turret);
 
         this.transform.GetComponent<Image>().color = new Color(97f, 142f, 231f, 255f);      // temporary
@@ -42,7 +41,6 @@ public class ItemButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("Hover exit, disable panel.");
         _userInterface.ShowItemStats(this.transform.gameObject, false,_turret);
 
         this.transform.GetComponent<Image>().color = _buttonDefaultColor;

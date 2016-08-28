@@ -27,8 +27,6 @@ public class WeaponBehaviour : MonoBehaviour
     private bool _drawWeapon;
     private bool _reloading;
 
-    private float _firstShot;
-
     void Start()
     {
         _mainCamera = FindObjectOfType<Camera>();
@@ -115,13 +113,13 @@ public class WeaponBehaviour : MonoBehaviour
         _audioSource.clip = Sounds[0];
         _audioSource.Play();
 
-        if(MuzzleEffect != null)
+        if (MuzzleEffect != null)
             Instantiate(MuzzleEffect, Barrel.transform.position, Quaternion.identity);
 
         GameObject bullet = Instantiate(Bullet, Barrel.transform.position, Barrel.transform.rotation) as GameObject;
 
         if (bullet != null)
-            bullet.GetComponent<Rigidbody>().AddForce(-transform.right * 2800f);
+            bullet.GetComponent<Rigidbody>().AddForce(-transform.right * 2000f);
 
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -138,7 +136,7 @@ public class WeaponBehaviour : MonoBehaviour
                 {
                     Instantiate(BulletHit, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal));
                 }
-                Debug.Log("HIT " + hit.collider.transform.gameObject.name);
+                //Debug.Log("HIT " + hit.collider.transform.gameObject.name);
                 //hit.transform.gameObject.GetComponent<RagdollController>().DisableRagdoll();
             }
         }
