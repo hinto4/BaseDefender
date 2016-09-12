@@ -28,4 +28,9 @@ public class SpawnController : MonoBehaviour
             }
         }
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, 1);
+    }
 }
