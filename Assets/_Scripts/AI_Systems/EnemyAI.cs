@@ -24,7 +24,7 @@ public class EnemyAI : AICharacterControl
         Idle
     }
 
-    EnemyState _state = EnemyState.Idle;
+    EnemyState _state = EnemyState.Walking;     // default Idle
 
     void Start()
     {
@@ -34,6 +34,8 @@ public class EnemyAI : AICharacterControl
         _audioSource.clip = Sounds;
         _player = GameObject.FindObjectOfType<FirstPersonController>();
         target = _player.transform;
+
+        GameObject.FindObjectOfType<EnemyWavesManager>().EnemyList.Add(this.gameObject);
     }
 
     void Update()
@@ -43,6 +45,8 @@ public class EnemyAI : AICharacterControl
         if (Health <= 0)
         {
             DisableRagdoll();
+            Destroy(this.gameObject, 120f);
+            GameObject.FindObjectOfType<EnemyWavesManager>().EnemyList.Remove(this.gameObject);     // remove enemy from the list @ EnemyWaveManager class.
         }
     }
 
@@ -84,7 +88,7 @@ public class EnemyAI : AICharacterControl
         }
         else
         {
-            _state = EnemyState.Idle;
+            _state = EnemyState.Walking;       // bug is here, should be idle, current temp fix for walking mode.
             EnemyStateController();
         }
     }
